@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="tipo_pago">
+        <item>REALIZADA</item>
+        <item>NO SE VISITO</item>
+        <item>NO CONTACTO</item>
+        <item>NO PAGO</item>
+        <item>CANCELADA</item>
+        <item>POR ACLARAR</item>
+        <item>PROGRAMADA</item>
+        
+    </string-array> 
+</resources>
+ 

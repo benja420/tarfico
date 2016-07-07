@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">TraficoApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="buscar">Buscar:</string>
+     <string name="chofer1">Chofer:</string>
+    <string name="factura">Factura:</string>
+    <string name="btnbuscar">Buscar</string>
+    <string name="btnrecargas">Recargas</string>
+    <string name="btnsalir">  Salir  </string>
+    <string name="btnguardar">Guardar</string>
+    <string name="cliente">Cliente:</string>
+    <string name="chofer">Chofer:</string>
+    <string name="total">Total:</string>
+    <string name="status">Status:</string>
+    <string name="direccion">Direccion:</string>
+    <string name="comentario">Comentario:</string>
+     <string name="user">Usuario:</string>
+     <string name="password">Contarseña:</string>
+     <string name="exit">Salir</string>
+      <string name="login">Enviar</string>
+</resources>

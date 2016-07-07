@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+		<!-- layout chofer -->
+	
+	<LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"  >
+
+        <TextView
+            android:id="@+id/lblChofer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chofer" />
+
+        <EditText
+            android:id="@+id/txtChofer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:inputType="text">
+               </EditText>
+          
+
+        
+    </LinearLayout>
+
+    <!-- layout chofer -->
+    
+    
+    
+	<!-- layout buscar -->
+	
+	<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          >
+
+        <TextView
+            android:id="@+id/lblbuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buscar" />
+
+        <EditText
+            android:id="@+id/txtBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:inputType="text">
+               </EditText>
+          
+
+        
+    </LinearLayout>
+
+    <!-- layout buscar -->
+    
+    
+    <!-- layout botones -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="15dp" 
+         >
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnbuscar" />
+
+          <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnguardar"/>
+        
+        <Button
+            android:id="@+id/btnRecargas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnrecargas" />
+
+    </LinearLayout>
+
+    <!-- layout botones -->
+    
+    
+    
+     <!-- layout facturas -->
+     
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp" >
+
+        <TextView
+            android:id="@+id/lblfactura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/factura"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txtfactura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="15dp" >
+
+        </TextView>
+
+    </LinearLayout>
+    
+      <!-- layout facturas -->
+    
+    
+    
+    
+      <!-- layout cliente -->
+     
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/lblcliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cliente" />
+
+        <TextView
+            android:id="@+id/txtCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:inputType="text">
+        </TextView>
+
+    </LinearLayout>
+    
+      <!-- layout cliente-->
+    
+     
+     
+     
+      <!-- layout chofer -->
+     
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/lblchofer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total" />
+
+        <TextView
+            android:id="@+id/txtChofer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:inputType="text">
+        </TextView>
+
+    </LinearLayout>
+    
+      <!-- layout chofer-->
+    
+   
+    
+     <!-- layout status -->
+     
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/lblstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status" />
+
+            <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    
+      <!-- layout status-->
+      
+      
+      
+        <!-- layout comentario -->
+     
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/lblcomentario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comentario" />
+
+          <EditText
+            android:id="@+id/txtComentario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+             android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="textMultiLine" 
+            />
+
+    </LinearLayout>
+    
+      <!-- layout status-->
+      
+      
+  
+    
+</LinearLayout>
